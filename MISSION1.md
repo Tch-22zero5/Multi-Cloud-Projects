@@ -19,7 +19,7 @@ A Google Cloud Account GCP (For GCP) Open your browser in an **Anonymous | Priva
 ![Untitled](https://github.com/Tch-22zero5/Multi-Cloud-Projects/assets/140101993/b66b2fa9-c408-4c71-a0bd-d259df27c4a5)
 
 - After advancing, in Set permissions, click on the Attach existing policies directly button.
-<img width="1000" alt="Screenshot_2023-02-03_at_09 27 44" src="https://github.com/Tch-22zero5/Multi-Cloud-Projects/assets/140101993/e4b7086c-ab65-451b-8a5b-cd8345d5665b">
+ <img width="1000" alt="Screenshot_2023-02-03_at_09 27 44" src="https://github.com/Tch-22zero5/Multi-Cloud-Projects/assets/140101993/e4b7086c-ab65-451b-8a5b-cd8345d5665b">
 
 - Type **AmazonS3FullAccess** in **Search.**
 - Select **AmazonS3FullAccess**
@@ -37,7 +37,7 @@ A Google Cloud Account GCP (For GCP) Open your browser in an **Anonymous | Priva
 - Navigate to the **Access keys** section
 - Click on **Create access key**
 ![Untitled (4)](https://github.com/Tch-22zero5/Multi-Cloud-Projects/assets/140101993/ab001686-bdfd-406b-8b26-0e7e04e2f487)
-Select Command Line Interface (CLI) and I understand the above recommendation and want to proceed to create an access key.
+- Select Command Line Interface (CLI) and I understand the above recommendation and want to proceed to create an access key.
 ![Untitled (5)](https://github.com/Tch-22zero5/Multi-Cloud-Projects/assets/140101993/2986e771-74b6-4637-aca1-21fa41cd53fd)
 - Click on **Next**.
 - Click on **Create access key**
@@ -55,7 +55,8 @@ Click on Download .csv file
 ![Untitled (8)](https://github.com/Tch-22zero5/Multi-Cloud-Projects/assets/140101993/883a599e-bb46-4088-b0a4-47d1307ad2ce)
 - Download the mission1.zip file in the Google Cloud shell using the wget command
 
-   wget https://tcb-public-events.s3.amazonaws.com/icp/mission1.zip
+  wget https://tcb-public-events.s3.amazonaws.com/icp/mission1.zip
+
 **Result**
   ![Untitled (9)](https://github.com/Tch-22zero5/Multi-Cloud-Projects/assets/140101993/eecf8246-4a4b-4f79-8604-2a7cee380b70)
 - Upload the key.csv  and mission1.zip files to the Cloud Shell using the browser
@@ -66,7 +67,9 @@ Click on Download .csv file
 - Step 3
 ![Untitled (12)](https://github.com/Tch-22zero5/Multi-Cloud-Projects/assets/140101993/9d66b844-04c5-4839-a1c1-984b512c64d7)
 - Verify if the mission1.zip and key.csv files are in the folder in the Cloud Shell using the command below
+
   ls
+
 **Result**
 ![Untitled (13)](https://github.com/Tch-22zero5/Multi-Cloud-Projects/assets/140101993/eff2c4f8-2116-44c9-ad96-f3474dc85c5d)
 - Execute the file preparation commands:
@@ -108,24 +111,26 @@ chmod +x *.sh
 ![Untitled(14)](https://github.com/Tch-22zero5/Multi-Cloud-Projects/assets/140101993/9b750fa8-82dc-4697-83b4-a88b2d57b294)
 - Execute the command below to set the project in the Google Cloud Shell
 
-   ./gcp_set_project.sh
+  ./gcp_set_project.sh
 
 - Execute the commands to enable the Kubernetes, Container Registry, and Cloud SQL APIs
 
-   gcloud services enable containerregistry.googleapis.com
+  gcloud services enable containerregistry.googleapis.com
 
-   gcloud services enable container.googleapis.com
+
+  gcloud services enable container.googleapis.com
 ​
-   gcloud services enable sqladmin.googleapis.com
+
+  gcloud services enable sqladmin.googleapis.com
 ​
 ## IMPORTANT( DO NOT SKIP)
 ![Screenshot (26)](https://github.com/Tch-22zero5/Multi-Cloud-Projects/assets/140101993/b7276dc8-c4a4-4548-b366-796fd2a39af2)
 **To open the text editor**
-- Go to the right-hand-side of your Google cloud shell terminal
+- Go to the right-hand-side of your Google Cloud shell terminal
 - Click on the Text editor
 ![Screenshot (27)](https://github.com/Tch-22zero5/Multi-Cloud-Projects/assets/140101993/984ced43-7dba-43f8-90ba-635fcae84df7)
 
-- On Text editor, Click on mission1_en folder
+- On the Text editor, Click on the mission1_en folder
 ![Screenshot (28)](https://github.com/Tch-22zero5/Multi-Cloud-Projects/assets/140101993/6a9f6379-c7c8-4f11-b136-1ef50ace66f1)
 
 - Click on **Mission1** folder
