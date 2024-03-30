@@ -108,15 +108,15 @@ chmod +x *.sh
 ![Untitled(14)](https://github.com/Tch-22zero5/Multi-Cloud-Projects/assets/140101993/9b750fa8-82dc-4697-83b4-a88b2d57b294)
 - Execute the command below to set the project in the Google Cloud Shell
 
-./gcp_set_project.sh
+   ./gcp_set_project.sh
 
 - Execute the commands to enable the Kubernetes, Container Registry, and Cloud SQL APIs
 
-gcloud services enable containerregistry.googleapis.com
+   gcloud services enable containerregistry.googleapis.com
 
-gcloud services enable container.googleapis.com
+   gcloud services enable container.googleapis.com
 ​
-gcloud services enable sqladmin.googleapis.com
+   gcloud services enable sqladmin.googleapis.com
 ​
 ## IMPORTANT( DO NOT SKIP)
 ![Screenshot (26)](https://github.com/Tch-22zero5/Multi-Cloud-Projects/assets/140101993/b7276dc8-c4a4-4548-b366-796fd2a39af2)
