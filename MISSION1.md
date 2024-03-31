@@ -159,7 +159,16 @@ terraform apply
 **Attention:** The provisioning process can take between 15 to 25 minutes to finish. Keep the CloudShell open during the process. If disconnected, click on Reconnect when the session expires (the session expires after 5 minutes of inactivity by default)
 ## IMPORTANT (DO NOT SKIP)
 ![Screenshot (36)](https://github.com/Tch-22zero5/Multi-Cloud-Projects/assets/140101993/f3e79bbf-f463-44f0-b669-59550e697940)
-
+**NOTE: To do this** 
+- Search and Click on the **SQL instance** that has been created in the Google Cloud Platform using Terraform
+- Click on **Connections**
+- Under the **Networking** section, Check-box the **Private IP**
+- Under the Private IP; On the network dropdown, Select **default**
+- Go down and Click on **ADD NETWORK**
+- NAME: Public Access (Testing Only)
+- NETWORK: 0.0.0.0/0
+- Click Done
+- Scroll down and click on **Save**
 # Appendix I - Destroying the environment and starting over
 
 In case you have encountered any problem/error and want to reset the environment to start over, follow the step-by-step instructions below to remove the entire MultiCloud environment.
